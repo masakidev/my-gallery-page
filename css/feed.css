@@ -1,0 +1,46 @@
+.feed {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: 
+    'photo1 photo2 photo2'
+    'photo3 photo3 photo4'
+    'photo5 photo6 photo4';
+  gap: 1rem;
+}
+
+.feed__img {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.9375rem;
+}
+
+#photo1 {
+  grid-area: photo1;
+}
+
+#photo2 {
+  grid-area: photo2;
+}
+
+#photo3 {
+  grid-area: photo3;
+}
+
+#photo4 {
+  grid-area: photo4;
+}
+
+#photo5 {
+  grid-area: photo5;
+}
+
+#photo6 {
+  grid-area: photo6;
+}
+
+@media screen and (min-width: 768px) {
+  .feed {
+    gap: 2rem;
+  }
+}

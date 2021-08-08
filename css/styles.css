@@ -1,0 +1,21 @@
+@import './wrapper.css';
+@import './profile.css';
+@import './feed.css';
+@import './footer.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+:root {
+  --black: #4E5150;
+  --gray: #E5E5E5;
+  --darkGray: #BDBDBD;
+  --veryDarkGray: #A9A9A9;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
